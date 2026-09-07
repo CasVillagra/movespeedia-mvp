@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "MoveSpeedia",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Español",
+    "continue": "Continue",
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "getQuote": "Get a quote",
+    "myMoves": "My moves",
+    "carrierPortal": "Carrier portal",
+    "admin": "Admin",
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  },
+  "home": {
+    "title": "Moving made simple",
+    "subtitle": "Build your inventory, compare licensed carriers, and book your move online.",
+    "cta": "Start my inventory",
+    "statusHeading": "Milestone 1 — foundation",
+    "statusCatalog": "{count} inventory items loaded",
+    "statusPlaceholder": "Placeholder data — pending confirmation from MoveSpeedia"
+  },
+  "intake": {
+    "title": "Tell us about your move",
+    "pickupAddress": "Pickup address",
+    "destinationAddress": "Destination address",
+    "moveDate": "Move date",
+    "dateFlexible": "My dates are flexible",
+    "accessType": "Building access",
+    "groundFloor": "Ground floor",
+    "elevator": "Elevator",
+    "stairs": "Stairs",
+    "floorNumber": "Floor number",
+    "longCarry": "Long walk from the truck to the door",
+    "contactName": "Full name",
+    "contactEmail": "Email",
+    "contactPhone": "Phone"
+  },
+  "inventory": {
+    "title": "Build your inventory",
+    "addItem": "Add item",
+    "quantity": "Quantity",
+    "totalVolume": "Total volume",
+    "cubicFeet": "cubic feet",
+    "estimatedWeight": "Estimated weight",
+    "pounds": "lbs",
+    "photosTitle": "Photos (optional)",
+    "photosHelp": "Photos help carriers confirm your estimate.",
+    "categories": {
+      "living_room": "Living room",
+      "bedroom": "Bedroom",
+      "dining_room": "Dining room",
+      "appliances": "Appliances",
+      "office": "Office",
+      "garage_outdoor": "Garage and outdoor",
+      "boxes": "Boxes"
+    }
+  },
+  "carriers": {
+    "title": "Compare carriers",
+    "price": "Price",
+    "pickupWindow": "Pickup window",
+    "selectCarrier": "Select this carrier",
+    "noResults": "No carriers are available for those dates yet."
+  },
+  "booking": {
+    "title": "Confirm your move",
+    "paymentSchedule": "Payment schedule",
+    "depositDue": "Due today",
+    "preMoveDue": "Due before your move",
+    "deliveryDue": "Due on delivery",
+    "confirmed": "Your move is booked",
+    "quoteValidUntil": "This price is valid until {date}"
+  }
+}

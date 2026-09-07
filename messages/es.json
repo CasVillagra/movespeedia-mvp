@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "MoveSpeedia",
+    "language": "Idioma",
+    "english": "English",
+    "spanish": "Español",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "loading": "Cargando…"
+  },
+  "nav": {
+    "getQuote": "Cotizar",
+    "myMoves": "Mis mudanzas",
+    "carrierPortal": "Portal de transportistas",
+    "admin": "Administración",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión"
+  },
+  "home": {
+    "title": "Tu mudanza, más simple",
+    "subtitle": "Arma tu inventario, compara transportistas con licencia y reserva tu mudanza en línea.",
+    "cta": "Comenzar mi inventario",
+    "statusHeading": "Etapa 1 — base del proyecto",
+    "statusCatalog": "{count} artículos de inventario cargados",
+    "statusPlaceholder": "Datos provisionales — pendientes de confirmación por MoveSpeedia"
+  },
+  "intake": {
+    "title": "Cuéntanos sobre tu mudanza",
+    "pickupAddress": "Dirección de origen",
+    "destinationAddress": "Dirección de destino",
+    "moveDate": "Fecha de la mudanza",
+    "dateFlexible": "Mis fechas son flexibles",
+    "accessType": "Acceso al edificio",
+    "groundFloor": "Planta baja",
+    "elevator": "Elevador",
+    "stairs": "Escaleras",
+    "floorNumber": "Número de piso",
+    "longCarry": "Trayecto largo del camión a la puerta",
+    "contactName": "Nombre completo",
+    "contactEmail": "Correo electrónico",
+    "contactPhone": "Teléfono"
+  },
+  "inventory": {
+    "title": "Arma tu inventario",
+    "addItem": "Agregar artículo",
+    "quantity": "Cantidad",
+    "totalVolume": "Volumen total",
+    "cubicFeet": "pies cúbicos",
+    "estimatedWeight": "Peso estimado",
+    "pounds": "libras",
+    "photosTitle": "Fotos (opcional)",
+    "photosHelp": "Las fotos ayudan a los transportistas a confirmar tu estimado.",
+    "categories": {
+      "living_room": "Sala",
+      "bedroom": "Recámara",
+      "dining_room": "Comedor",
+      "appliances": "Electrodomésticos",
+      "office": "Oficina",
+      "garage_outdoor": "Cochera y exteriores",
+      "boxes": "Cajas"
+    }
+  },
+  "carriers": {
+    "title": "Compara transportistas",
+    "price": "Precio",
+    "pickupWindow": "Ventana de recolección",
+    "selectCarrier": "Elegir este transportista",
+    "noResults": "Todavía no hay transportistas disponibles para esas fechas."
+  },
+  "booking": {
+    "title": "Confirma tu mudanza",
+    "paymentSchedule": "Plan de pagos",
+    "depositDue": "A pagar hoy",
+    "preMoveDue": "A pagar antes de la mudanza",
+    "deliveryDue": "A pagar en la entrega",
+    "confirmed": "Tu mudanza está reservada",
+    "quoteValidUntil": "Este precio es válido hasta el {date}"
+  }
+}

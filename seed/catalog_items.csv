@@ -1,0 +1,67 @@
+slug,category,name_en,name_es,cubic_feet,sort_order
+sofa-3-cushion,living_room,"Sofa, 3-cushion","Sofá de 3 plazas",50,10
+sofa-loveseat,living_room,"Loveseat / 2-cushion sofa","Sofá de 2 plazas (love seat)",35,20
+sectional-piece,living_room,"Sectional sofa (per piece)","Sofá seccional (por pieza)",30,30
+armchair,living_room,"Armchair","Sillón",25,40
+recliner,living_room,"Recliner","Sillón reclinable",30,50
+coffee-table,living_room,"Coffee table","Mesa de centro",10,60
+end-table,living_room,"End table","Mesa lateral",5,70
+bookcase-small,living_room,"Bookcase, small","Librero chico",10,80
+bookcase-large,living_room,"Bookcase, large","Librero grande",30,90
+tv-under-50,living_room,"TV, flat screen up to 50""","Televisión de pantalla plana (hasta 50"")",10,100
+tv-over-50,living_room,"TV, flat screen over 50""","Televisión de pantalla plana (más de 50"")",16,110
+tv-stand,living_room,"TV stand / media console","Mueble para TV",15,120
+floor-lamp,living_room,"Floor lamp","Lámpara de pie",3,130
+rug-large,living_room,"Rug, large (rolled)","Alfombra grande (enrollada)",10,140
+ottoman,living_room,"Ottoman","Otomana / puff",5,150
+mattress-twin,bedroom,"Mattress, twin","Colchón individual",20,10
+mattress-full,bedroom,"Mattress, full","Colchón matrimonial",25,20
+mattress-queen,bedroom,"Mattress, queen","Colchón queen size",30,30
+mattress-king,bedroom,"Mattress, king","Colchón king size",35,40
+box-spring-twin,bedroom,"Box spring, twin","Base de cama individual (box spring)",20,50
+box-spring-queen,bedroom,"Box spring, queen","Base de cama queen (box spring)",30,60
+bed-frame,bedroom,"Bed frame / headboard","Cabecera y base de cama",15,70
+dresser-single,bedroom,"Dresser, single","Cómoda sencilla",20,80
+dresser-double,bedroom,"Dresser, double","Cómoda doble",30,90
+chest-of-drawers,bedroom,"Chest of drawers","Cajonera",25,100
+nightstand,bedroom,"Nightstand","Buró",5,110
+wardrobe,bedroom,"Wardrobe / armoire","Ropero / armario",40,120
+mirror-large,bedroom,"Mirror, large","Espejo grande",5,130
+crib,bedroom,"Crib","Cuna",15,140
+dining-table,dining_room,"Dining table","Mesa de comedor",30,10
+dining-chair,dining_room,"Dining chair","Silla de comedor",5,20
+china-cabinet,dining_room,"China cabinet / hutch","Vitrina / trinchador",45,30
+buffet,dining_room,"Buffet / sideboard","Buffet / aparador",30,40
+bar-stool,dining_room,"Bar stool","Banco de bar",5,50
+refrigerator,appliances,"Refrigerator, standard","Refrigerador estándar",45,10
+refrigerator-large,appliances,"Refrigerator, large / French door","Refrigerador grande (dos puertas)",60,20
+freezer-upright,appliances,"Freezer, upright","Congelador vertical",30,30
+range-stove,appliances,"Range / stove","Estufa",30,40
+dishwasher,appliances,"Dishwasher","Lavavajillas",20,50
+microwave,appliances,"Microwave","Horno de microondas",5,60
+washer,appliances,"Washing machine","Lavadora",25,70
+dryer,appliances,"Clothes dryer","Secadora",25,80
+kitchen-cart,appliances,"Kitchen cart","Carrito de cocina",10,90
+desk-small,office,"Desk, small","Escritorio pequeño",20,10
+desk-executive,office,"Desk, executive","Escritorio ejecutivo",40,20
+office-chair,office,"Office chair","Silla de oficina",10,30
+filing-cabinet-2,office,"Filing cabinet, 2-drawer","Archivero de 2 gavetas",10,40
+filing-cabinet-4,office,"Filing cabinet, 4-drawer","Archivero de 4 gavetas",20,50
+computer-monitor,office,"Computer and monitor","Computadora y monitor",5,60
+printer,office,"Printer","Impresora",5,70
+bicycle,garage_outdoor,"Bicycle","Bicicleta",10,10
+lawn-mower,garage_outdoor,"Lawn mower, push","Podadora de césped",15,20
+grill,garage_outdoor,"Grill / BBQ","Asador / parrilla",20,30
+patio-table,garage_outdoor,"Patio table","Mesa de patio",20,40
+patio-chair,garage_outdoor,"Patio chair","Silla de patio",5,50
+ladder,garage_outdoor,"Ladder","Escalera de mano",10,60
+tool-chest,garage_outdoor,"Tool chest","Caja de herramientas",15,70
+garden-tools,garage_outdoor,"Garden tools (bundle)","Herramientas de jardín (paquete)",10,80
+exercise-equipment,garage_outdoor,"Treadmill / exercise equipment","Caminadora / equipo de ejercicio",30,90
+box-small,boxes,"Small box (1.5 cu ft)","Caja chica (1.5 pies³)",1.5,10
+box-medium,boxes,"Medium box (3.0 cu ft)","Caja mediana (3.0 pies³)",3,20
+box-large,boxes,"Large box (4.5 cu ft)","Caja grande (4.5 pies³)",4.5,30
+box-extra-large,boxes,"Extra large box (6.0 cu ft)","Caja extragrande (6.0 pies³)",6,40
+box-wardrobe,boxes,"Wardrobe box","Caja para ropa colgada",10,50
+box-dish-pack,boxes,"Dish pack","Caja para vajilla",5.2,60
+box-picture,boxes,"Picture / mirror box","Caja para cuadros y espejos",3,70

@@ -1,0 +1,18 @@
+{
+  "_comment": "PLACEHOLDER VALUES — not approved by MoveSpeedia. Replace with the client's real figures and set is_placeholder to false. Nothing here is hardcoded in application code; the app always reads these from the pricing_config table, which the admin dashboard edits.",
+  "base_rate": 250.00,
+  "rate_per_cubic_foot": 4.50,
+  "cubic_feet_to_pounds_factor": 7.0,
+  "minimum_charge": 600.00,
+  "included_miles": 30,
+  "rate_per_mile": 2.50,
+  "stairs_fee_per_flight": 75.00,
+  "long_carry_fee": 100.00,
+  "packing_fee_per_cubic_foot": 1.25,
+  "deposit_pct": 25,
+  "pre_move_pct": 50,
+  "delivery_pct": 25,
+  "quote_valid_days": 7,
+  "platform_commission_pct": 10,
+  "is_placeholder": true
+}

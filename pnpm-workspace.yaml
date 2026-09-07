@@ -1,0 +1,4 @@
+# pnpm 11 requires explicit approval for dependency build scripts.
+allowBuilds:
+  '@parcel/watcher': true
+  '@swc/core': true
