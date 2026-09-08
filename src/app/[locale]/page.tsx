@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { createClient } from '@/lib/supabase/server'
-import { LocaleSwitcher } from '@/components/locale-switcher'
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -21,11 +20,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     .eq('is_placeholder', true)
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col justify-center gap-8 px-6 py-16">
-      <div className="flex justify-end">
-        <LocaleSwitcher />
-      </div>
-
+    <main className="mx-auto flex max-w-2xl flex-col gap-8 px-6 py-16">
       <div className="space-y-3">
         <h1 className="text-4xl font-semibold tracking-tight">{t('title')}</h1>
         <p className="text-lg text-black/70 dark:text-white/70">{t('subtitle')}</p>

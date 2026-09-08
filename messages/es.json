@@ -77,5 +77,39 @@
     "deliveryDue": "A pagar en la entrega",
     "confirmed": "Tu mudanza está reservada",
     "quoteValidUntil": "Este precio es válido hasta el {date}"
+  },
+  "auth": {
+    "signInTitle": "Iniciar sesión",
+    "signUpTitle": "Crea tu cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "fullName": "Nombre completo",
+    "phone": "Teléfono (opcional)",
+    "signInCta": "Iniciar sesión",
+    "signUpCta": "Crear cuenta",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "working": "Un momento…",
+    "checkEmail": "Revisa tu correo para confirmar tu cuenta y luego inicia sesión.",
+    "invalidCredentials": "El correo y la contraseña no coinciden con ninguna cuenta.",
+    "emailInUse": "Ya existe una cuenta con ese correo.",
+    "emailInvalid": "Ingresa un correo electrónico válido.",
+    "passwordTooShort": "La contraseña debe tener al menos 8 caracteres.",
+    "nameRequired": "Ingresa tu nombre completo.",
+    "genericError": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "dashboard": {
+    "customerTitle": "Mis mudanzas",
+    "carrierTitle": "Portal de transportistas",
+    "adminTitle": "Panel de administración",
+    "customerNext": "Registro de la mudanza, inventario y comparación de transportistas.",
+    "carrierNext": "Perfil de la empresa, zonas de servicio, disponibilidad y capacidad.",
+    "adminNext": "Clientes, reservaciones, transportistas y reglas de precios editables.",
+    "signedInAs": "Sesión iniciada como {name} · {role}",
+    "comingNext": "Próximamente",
+    "baseRate": "Tarifa base",
+    "ratePerCubicFoot": "Tarifa por pie cúbico",
+    "conversionFactor": "Factor de conversión",
+    "paymentStages": "Etapas de pago"
   }
 }

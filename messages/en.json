@@ -77,5 +77,39 @@
     "deliveryDue": "Due on delivery",
     "confirmed": "Your move is booked",
     "quoteValidUntil": "This price is valid until {date}"
+  },
+  "auth": {
+    "signInTitle": "Sign in",
+    "signUpTitle": "Create your account",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "phone": "Phone (optional)",
+    "signInCta": "Sign in",
+    "signUpCta": "Create account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "working": "Please wait…",
+    "checkEmail": "Check your email to confirm your account, then sign in.",
+    "invalidCredentials": "That email and password don't match an account.",
+    "emailInUse": "An account with that email already exists.",
+    "emailInvalid": "Enter a valid email address.",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "nameRequired": "Enter your full name.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "dashboard": {
+    "customerTitle": "My moves",
+    "carrierTitle": "Carrier portal",
+    "adminTitle": "Admin dashboard",
+    "customerNext": "Move intake, inventory builder and carrier comparison.",
+    "carrierNext": "Company profile, service areas, availability and capacity.",
+    "adminNext": "Customers, bookings, carriers, and editable pricing rules.",
+    "signedInAs": "Signed in as {name} · {role}",
+    "comingNext": "Coming next",
+    "baseRate": "Base rate",
+    "ratePerCubicFoot": "Rate per cubic foot",
+    "conversionFactor": "Conversion factor",
+    "paymentStages": "Payment stages"
   }
 }
