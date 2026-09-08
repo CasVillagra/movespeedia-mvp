@@ -66,3 +66,33 @@ supabase db push
 
 Never edit the hosted schema by hand. The migrations are the source of truth,
 and a hand edit makes the next push fail in a way that is tedious to unpick.
+
+## Adding a table: grants are not automatic
+
+Row level security decides which **rows** a role may touch. It only comes into
+play once the role holds the underlying **table** privilege, and those
+privileges are not granted automatically in a way you can rely on — they come
+from Postgres default privileges, which depend on which role created the table.
+
+This bit us once: the hosted project's tables had only
+`REFERENCES`/`TRIGGER`/`TRUNCATE` for `anon`, `authenticated` and
+`service_role`, so every API call failed with `permission denied for table
+catalog_items` while the identical local database worked perfectly.
+
+**Any migration that creates a table must also grant on it**, following the
+pattern in `20260908000006_role_grants.sql`:
+
+```sql
+grant select on public.new_table to anon;              -- only if truly public
+grant select, insert, update, delete on public.new_table to authenticated;
+grant select, insert, update, delete on public.new_table to service_role;
+```
+
+`service_role` is easy to forget because it bypasses RLS — but bypassing RLS
+does not bypass table privileges. Without its grant, server-side code fails.
+
+After adding a table, verify both environments agree:
+
+```sql
+select has_table_privilege('authenticated', 'public.new_table', 'SELECT');
+```
