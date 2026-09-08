@@ -65,3 +65,4 @@ docs/                    Architecture and handover notes
 
 - [`docs/architecture.md`](docs/architecture.md) — how the system fits together and why
 - [`docs/placeholders.md`](docs/placeholders.md) — every provisional value and how to replace it
+- [`docs/deployment.md`](docs/deployment.md) — DigitalOcean App Platform setup and environment variables
