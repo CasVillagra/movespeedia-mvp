@@ -1,4 +1,9 @@
-# pnpm 11 requires explicit approval for dependency build scripts.
+# pnpm 11 requires explicit approval for dependency build scripts, and refuses
+# to install when any are pending. These differ by platform: unrs-resolver
+# needs a native build on Linux (the deploy target) but not on macOS, so it
+# must be listed even though it never surfaces locally.
 allowBuilds:
   '@parcel/watcher': true
   '@swc/core': true
+  unrs-resolver: true
+  sharp: true
