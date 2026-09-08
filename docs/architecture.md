@@ -55,6 +55,15 @@ Role checks go through `SECURITY DEFINER` helper functions
 (`current_user_role()`, `is_admin()`, `current_carrier_id()`) so that policies
 can read a user's role without recursing into the `profiles` policies.
 
+These helpers live in a **`private` schema, not `public`**. PostgREST publishes
+every function in `public` as an RPC endpoint, which made `is_admin()` callable
+by anonymous requests at `/rest/v1/rpc/is_admin`. Revoking `EXECUTE` is not a
+workable fix: RLS policy expressions are evaluated with the privileges of the
+querying role, so revoking the grant breaks every policy that calls a helper.
+Moving them to a schema PostgREST does not expose removes the endpoints while
+leaving the policies working. `private` also holds the trigger functions, which
+have no reason to be callable over the API either.
+
 Notable rules:
 
 - **Carriers** are publicly listable only when `status = 'active'`.

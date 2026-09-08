@@ -742,15 +742,7 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      can_read_move: { Args: { target_move: string }; Returns: boolean }
-      can_write_move: { Args: { target_move: string }; Returns: boolean }
-      carrier_can_see_move: { Args: { target_move: string }; Returns: boolean }
-      current_carrier_id: { Args: never; Returns: string }
-      current_user_role: {
-        Args: never
-        Returns: Database["public"]["Enums"]["user_role"]
-      }
-      is_admin: { Args: never; Returns: boolean }
+      [_ in never]: never
     }
     Enums: {
       access_type: "ground_floor" | "elevator" | "stairs"
